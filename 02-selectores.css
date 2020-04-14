@@ -1,0 +1,32 @@
+/* SELECTOR DE NOMBRE DE ETIQUETA  */
+
+span {
+    /* AFECTA A TODOS LOS SPAM*/
+    color: rgb(71, 255, 230);
+}
+/* selector multiple separadso por comas (,) */
+li, p {
+    /* se lee los li y los parrafos */
+    color: greenyellow;
+}
+
+/* SELECTOR DE HIJOS A CUALQUIER NIVEL*/
+
+aside a{
+    color: hotpink;
+
+}
+
+/* Selector de hijos en primer nivel*/
+
+article > h4 {
+    color: blue;
+}
+#titulo-dmovil{
+    color: rgb(173, 52, 230);
+}
+/*selector de clase*/
+.lista-semanas{
+    color: darkgoldenrod;
+}
+
