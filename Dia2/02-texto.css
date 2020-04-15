@@ -1,0 +1,42 @@
+/*ingresando nuevo tipo de fuente(nuevo tipo de letra)*/
+@font-face{
+    font-family: "Slugfest";
+    src: url("./Slugfest.ttf");
+}
+
+/*OJO alineamiento de texto y no de elementos*/
+
+h1 {
+    text-align: center;
+    background-color: teal;
+}
+
+/* indenta o agrega sangria a la primera linea de un texto*/
+p:not(.texto-footer):not(.slugfest){
+    text-indent: 20px;
+    /*espaciado entre letra y letra*/
+    letter-spacing: 5px;
+    /*espaciado entre palabra y palabra*/
+    word-spacing: 15px;
+    /* interlineado*/
+    line-height: 13px;
+}
+
+small{
+    /* underline   overline   none   line-through*/
+    text-decoration: line-through;
+}
+
+/* quitanto los colores y la decoracion predeterminada */
+a{
+    text-decoration: none; color: unset;
+}
+
+
+.slugfest{
+    font-family: "slugfest";
+}
+
+
+
+

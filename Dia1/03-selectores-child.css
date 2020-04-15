@@ -1,0 +1,49 @@
+/* de cada grupo de hermanos al mismo nivel de li aplicar el color rojo*/
+li:nth-child(3){ 
+    color: rgb(226, 110, 43);}
+
+/*selecionando al primer grupo de hermanos al mismo nivel*/
+
+p:first-child {
+    color: cornflowerblue;}
+
+/*selecciona al ultimo del grupo de hermanos al mismo nivel*/
+
+p:last-child{
+    color: crimson;
+}
+
+/*seleccionar todos los elementos pares de un grupo de hermanos, al mismo nivel*/
+
+tr:nth-child(odd){ background-color: tan;}
+
+
+/* pares*/
+
+tr:nth-child(even){
+    background-color: violet;
+    
+}
+
+/* para cambiar el color del titulo de las tablas */
+
+th{background-color: teal;}
+
+
+/* :not()=> interpretado como excepto */
+/* todos los elementos de un ul exepto las etiquetas*/
+/*Todos los hijos ul que a su vez sea hijo de un section, 
+de todos ellos, excepto el que tiene la clase "seleccionado" */
+
+section ul :not(.seleccionado){
+    color: tomato;
+}
+
+/* todos los h4 excepto los que tengan la clase "letra grande"*/
+
+h4:not(.letra-grande) {color: violet;}
+
+
+
+
+

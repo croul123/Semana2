@@ -29,4 +29,11 @@ article > h4 {
 .lista-semanas{
     color: darkgoldenrod;
 }
+/*selector que incluye los atributos y propiedades de un elemento*/
+input[type="text"]{
+    border: 1px solid darkorange;
+}
+input[type="number"]{
+    border: 1px solid blue;
+}
 

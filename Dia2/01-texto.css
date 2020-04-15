@@ -1,0 +1,27 @@
+/* Familia de texto*/
+h1{
+    font-family: cursive, Verdana, sans-serif ;
+}
+
+/* TAMAÑO E LETRA*/
+P{
+    font-size: 40PX;
+    font-family: Tahoma, sans-serif;
+}
+
+/* PONER NEGRITA*/
+
+h4 {
+    font-weight: bold;
+}
+
+/* estilo de fuente */
+small {
+    font-style: italic;
+}
+
+/* propiedad de texto estilo shorthand*/
+/* se fuciona en una sola linea el font-style font-weight font-size font-famili*/
+.texto-footer {
+    font: italic 100 10px Arial;
+}
