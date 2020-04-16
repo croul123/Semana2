@@ -1,0 +1,57 @@
+/*funcion de reseteo*/
+/*ningun elemento tendra marguen*/
+* {
+    margin: 0em;
+}
+
+
+header {
+    background-color: salmon;
+}
+h1 {
+    background-color: crimson;
+}
+
+body{
+    background-color: aqua;
+
+}
+main{
+    background-color: darkturquoise;
+    width: 50%;
+    height: 600px;
+    overflow-y:  scroll;
+    overflow-x: hidden;
+}
+
+.section-1{
+    background-color: darkgreen;
+    color: #66FA66;
+    width: 50%;
+    
+    
+}
+
+.section-2{
+    background-color: darkorchid;
+    color: #C4C5F0;
+    width: 50%;
+    height: 100px;
+    /*overflow => determina que se hara con el contenido extra al tamanio del contenedor*/
+    /* hidden= dibuja el contenido de revalse*/
+    /* auto= dibuja el scoll en el contenedor rebalse*/
+
+    overflow-y:  scroll;
+    overflow-x: hidden;
+
+}
+
+footer{
+    background-color: yellow;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+footer>p {
+    text-align: center;
+    background-color: tomato;
+}

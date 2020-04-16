@@ -3,3 +3,14 @@ h1 {
     color: #FF7161;
     text-align: center;
 }
+
+main p{
+    color: rgb(10, 200, 50);
+}
+h3{
+    color: rgb(36, 42, 89);
+}
+
+.rojo-transparente{
+    color: rgba(255, 42, 85, 0.5);
+}

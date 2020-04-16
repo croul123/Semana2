@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    
+    box-sizing: border-box;
+}
+
+header {
+    height: 200px;
+    background-color: pink;
+    padding-top: 100px;
+}
+h1{
+    text-align: center;
+    
+}
+
+span {
+    background-color: blue;
+    /* PADDING: 10PX( 10PX A TODOS LADOS )
+       PADDING: 10PX 30PX (10 TOP Y BUTTON, 30 LEFT Y RAIGHT)*/
+    padding: 10px 30px;
+    margin-top: 10px;
+}
+
+

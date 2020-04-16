@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+}
+
+header{
+    height: 150px;
+    background-color: sandybrown;
+
+}
+main{
+    height: 1000px;
+
+}
+
+#section1{
+    width: 100px;
+    height: 100px;
+    background-color: steelblue;
+    border-width: 1px;
+    border-style: solid;
+    border-color: turquoise;
+    /*se puede colocar todo en uno solo border: 2px solid turquoise*/
+}

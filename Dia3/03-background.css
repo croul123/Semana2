@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 150px;
+    background-color: pink;
+}
+
+
+main {
+    height: 3000px;
+    
+}
+
+#section1{
+    height: 700px;
+    background-color: plum;
+    background-image: url(./dibuji1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#section2{
+    height: 700px;
+    background-image: url(./fibra.png);
+    background-repeat: ;
+}
+
+#section3{
+    height: 500px;
+    background-image: url(./frutas.jpg);
+    background-attachment: fixed;
+}
+#section3 h2 {
+    padding-top: 210px;
+    text-align: center;
+    font-family: cursive;
+    color: gray;
+    font-size: 40px;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
