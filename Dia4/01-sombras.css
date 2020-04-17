@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#div-1{
+    width: 150px;
+    height: 150px;
+    margin: 50px auto 0 auto;
+    border: 1px solid #999999;
+    /* sombra box-shadow necesita 3 valores, 1ro color, 2do desplazamiento en X, 3ro desplazamiento en Y*/
+    /* si agregamos valores serian el difuminado y sigue el valor de propagacion*/
+    box-shadow: #999999 0px 0px 10px 2px;
+    /* si colocamos el ultimo valor inset la sombra aparece en el interior*/
+    /* colocar estilos cuando el mouse pasa por ensima de un elemto se agrega el comando :hover*/
+
+}
+#div-1:hover {
+    background-color: silver;
+    box-shadow: #999999 0px 0px 5px 1px;
+}

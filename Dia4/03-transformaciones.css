@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+div {
+    margin: 40px auto 0px auto;
+    height: 100px;
+    width: 100px;
+    background-color: #ddd;
+}
+
+#div-1:hover {
+    /* hover es para cuando el mouse pase, se realiza el cambio */
+    /* (1=x, 1=y ) quiere decir que crece en 1 vez)*/
+    transform: scale(1.8, 1.1);
+}
+
+#div-2 {
+    /*como ingresar una imagen de prueba o donde va una imagen*/
+    background-image: url("https://via.placeholder.com/100/115522/ff2255?text=pepe");
+    /*como girar mi imagen*/
+    transform: rotate(45deg);
+}
+#div-3:hover {
+    transform: translate(30px, 10px);
+}
+
+#div-4:hover {
+    transform: scale(1.1, 0.9) rotate(30deg) ;
+}

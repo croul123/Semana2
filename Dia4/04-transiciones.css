@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+div {
+    margin: 40px auto 0px auto;
+    height: 100px;
+    width: 100px;
+    background-color: #ddd;
+}
+
+#div-1{
+ /*transicion*/
+ /*transition-property: all la transicion sera programada para cualquier cambio enel elemento*/
+ transition-property: all;
+ /*transition-duration: ; cuanto tiempo va a durar de pasar de estado normal a su siguiente estado*/
+ transition-duration: 1s;
+ /*Funcion de distribucion de tiempo ( como pasa desde el inicio hasta el final, el lineal es muy robotico*/
+ transition-timing-function: ease;
+ /*tiempo de espera antes de iniciar la animacion*/
+ transition-delay: 0s;
+ /*transicion en una sola linea = shorthand*/
+ /* transition: all; 1s, ease, 0s */
+}
+
+#div-1:hover{
+    transform: scale(1.3, 1.3);
+    border-radius: 10px;
+   
+
+}
+
+#div-2 {
+    transition: all 1s ease 0s;
+    background-color: red;
+}
+
+#div-2:hover{
+    background-color: blue;
+    transform: rotate(45deg);
+    
+}
+
+#div-3{
+    background-image: url(http://placekitten.com/200/300);
+    /*cover estira la imagen para que ocupe todo el contenedor*/
+    /*contain si la imagen es pequeña agrega mas imagenes para rellenar el contnedor*/
+    background-size: cover;
+    transition: all 02s ease-in 0s;
+
+}
+
+#div-3:hover {
+    /*filter es un modificador de imagenes*/
+    /*blur desenfoque de 1 a 10*/
+    filter: blur(2px);
+
+}
+
+/*tarea para mañana es lo del slack*/
