@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    box-sizing: 0;
+}
+
+header {
+    background-color: tomato;
+    color: thistle;
+}
+
+#contenedor div {
+    width: 140px;
+    height: 50px;
+    background-color: tomato;
+}
+
+#contenedor {
+    background-color: turquoise;
+    width: 600px;
+    height: 50px;
+}
+
+#caja-1{
+    width: 140px;
+    height: 50px;
+    float: left;
+    background-color: tomato;
+}
+
+#caja-2{
+    width: 140px;
+    height: 50px;
+    float: left;
+    background-color: tomato;
+}
+
+#caja-3{
+    width: 140px;
+    height: 50px;
+    float: left;
+    background-color: tomato;
+}
+
+#caja-4{
+    width: 140px;
+    height: 50px;
+    float: left;
+    background-color: tomato;
+}
+
+.fix {
+    clear: both;
+}

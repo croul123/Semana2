@@ -1,0 +1,25 @@
+* { 
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: tomato;
+
+}
+
+aside, section{
+    display: inline-block;
+}
+/* cuando se desea trabajar elementos inline, primero comvertir en block, inline block*/
+aside {
+    height: 500px;
+    width: 30%;
+    background-color: teal;
+}
+
+section {
+    height: 500px;
+    width: 70%;
+    background-color: rgb(71, 227, 255);
+}
