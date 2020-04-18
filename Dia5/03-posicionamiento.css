@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+  
+    height: 5000px;
+
+}
+
+#section1{
+    border: 1px solid red;
+    height: 500px;
+    margin: 40px;
+}
+
+.div1 {
+    background-color: cornflowerblue;
+    width: 150px;
+    height: 150px;
+    
+}
+.div2 {
+    background-color: green;
+    width: 150px;
+    height: 150px;
+    
+}
+.div1{
+    background-color: rgb(102, 0, 128);
+    width: 150px;
+    height: 150px;
+    opacity: 0.7;
+    /*realtive=>el elemento conserva su posicion original,
+     sin envargo, sin embargo ya esta habilitado para moverse respecto a su padre*/
+    /* se puede usar las referencias top y left*/
+    
+    position: relative;
+    top: 20px;
+    /*LEF cuando toma porcentaje lo hace respecto al tamaño de su padre*/
+    left: 50%;
+    /* el translate cuando toma un porcentaje lo hace tumando el ancho 
+    del mismo elemnto, NO DEL PADRE*/
+    transform: translate(-75px,0);
+}
+#section2 {
+    border: 1px solid rgb(0, 89, 255);
+    height: 300px;
+    margin: 40px;
+    position: relative;
+    /* cuando tiene posicion relativa, o es padre de un absoluto o se esta reubicando*/
+}
+.div3 {
+    width: 100px;
+    height: 100px;
+    background-color: greenyellow;
+    opacity: 0.8;
+    /*absolute=> se posiciona respecto del padre que tenga posicion relative*/
+    /*si el padre no tiene posicion relativa , el elemento tomara como referencia
+    el proximo padre8abuelo o bisabuelo)que tenga dicha posicion*/
+    /*se peude usar las referencias bottom top left y right*/
+    position: absolute;
+    top: 0px;
+    right: 0px;
+
+}
+.div4 {
+    width: 100px;
+    height: 100px;
+    background-color: khaki;
+}
+
+.div-fixed {
+    width: 150px;
+    height: 150px;
+    background-color: lightcoral;
+    /*FIXED=> su unica referencia, es la ventana del navegador
+    para ello, el elemento debe de tener asignado dos valores de referencia,
+    ejem. top y lef o bottom y left o bottom y right*/
+    position: fixed;
+    bottom: 50%;
+    right: 50%;
+    transform: translate(50%, 50%);
+
+}

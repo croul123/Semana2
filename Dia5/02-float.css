@@ -1,23 +1,11 @@
 * {
     margin: 0;
-    box-sizing: 0;
+    box-sizing: border-box;
 }
 
 header {
     background-color: tomato;
     color: thistle;
-}
-
-#contenedor div {
-    width: 140px;
-    height: 50px;
-    background-color: tomato;
-}
-
-#contenedor {
-    background-color: turquoise;
-    width: 600px;
-    height: 50px;
 }
 
 #caja-1{
@@ -47,7 +35,45 @@ header {
     float: left;
     background-color: tomato;
 }
+#contenedor {
+    background-color: turquoise;
+    width: 600px;
+    
+}
+
+#contenedor > div{
+    border: 1px solid red;
+}
 
 .fix {
+    /*le da al padre,  en este caso al section, la altura mayor de sus hijos es este elemento*/
+    /* en consecuencia el padre ya sabe cual es su altura*/
     clear: both;
+}
+#navegacion {
+    background-color: crimson;
+    color: white;
+    /*text-align: center;*/
+}
+
+#navecion>div {
+    background-color: indigo;
+    width: 100px;
+    display: inline-block;
+}
+.navegacion-wraper {
+    margin: auto;
+    background-color: green;
+    width: 600px;
+}
+
+
+/*la otra opcion podria ser .navegacion-wraper>div:not(.fix) */
+.opcion-1, .opcion-2, .opcion-3 {
+    background-color: indigo;
+    width: 200px;
+    float: left;
+    text-align: center;
+    border: 1px solid yellow;
+    padding: 5px;
 }

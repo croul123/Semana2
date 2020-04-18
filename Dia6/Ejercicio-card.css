@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    /*vh => viewport heigt, calcula el 100% de altura de la pantalla visual de nuestro equipo*/
+    height: 100vh;
+    background-color: #eeeeee;
+    position: relative;
+
+}
+
+.contenedor {
+    width: 900px;
+    height: 500px;
+    background-color: white;
+    
+    left: 50%;
+    top:50%;
+    transform: translate(50%, 50%);
+}
+S
+.imagen-wraper{
+    height: 250px;
+    border: 1px solid red;
+    position: relative;
+
+
+}
+.circulo {
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%,50%);
+    border-radius: 50%;
+    border: 1px solid white ;
+}
+
+.texto-wraper {
+    text-align: center;
+}
+.texto-wraper>p {
+    margin-top: 80px;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 800;
+    
+}
+
+.texto-wraper>button {
+    margin-top: 50px;
+    border: none;
+    background-color: #8fd32f;
+    padding: 15px;
+    border-radius: 3px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 800;
+    
+
+}

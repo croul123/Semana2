@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: wheat;
+    height: 70px;
+}
+#aside1 {
+    background-color: teal;
+    width: 20%;
+    height: 830px;
+    float: left;
+}
+#aside2 {
+    background-color: chartreuse;
+    width: 20%;
+    height: 830px;
+    float: right;
+}
+#section1 {
+    background-color: blue ;
+    width: 60%;
+    height: 830px;
+    float: left;
+    
+}
+.fix{
+    clear: both;
+}
