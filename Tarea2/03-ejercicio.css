@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    position: relative;
+}
+header{
+    width: 850px;
+    height: 325px;
+    position: relative;
+}
+.header{
+    
+    background-color: #DAEDE3;
+    position: absolute;
+    top: calc(50vh - 325px/2) ;
+    left: calc(50% - 850px/2);
+    
+}
+
+
+.div1{
+    background-color: #EB2E49;
+    width: 500px;
+    height: 60px;
+    position: absolute; z-index: 1;
+    left: 60px;
+    top: 40px;
+    float: left;
+    
+    
+    
+}
+.div2{
+    width: 790px;
+    height: 295px;
+    background-color: #78C4D3;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+}
+.div3{
+    background-color: #444C57;
+    width: calc(850px/4);
+    height: 325px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    opacity: 0.9;
+
+    
+}
+.div4{
+    background-color: #EBF29A;
+    width: 220px;
+    height: 260px;
+    position: absolute; z-index: 1;
+    right: 30px;
+    bottom: 0px;
+    float: left;
+    opacity: 0.9;
+}
+
+.div1>p {
+    text-align: center;
+    padding: 2.5px;
+    font-size: 50px;
+    font-family:   sans-serif;    
+    font-weight:  100;
+    color: #E1EE85;
+    
+
+}
+
+.div2>p{
+    width: 500px;
+    height: 225px;
+    font-size: 60px;
+    position: absolute;
+    left: 30px;
+    bottom: 0px;
+    color: rgb(255, 255, 255);
+    font-family: 'Coda Caption', sans-serif;
+    
+
+}
+.div4>P {
+    margin-left: 45PX;
+    margin-top: 20PX;
+    color: #A9AB93;
+    font-size: 12PX;
+    font-family: 'Coda Caption', sans-serif;
+    
+    
+}
+

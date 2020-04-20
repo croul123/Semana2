@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    position: relative;
+}
+
+       
+.div{
+    clear: both;
+}
+
+
+h4{
+    background-color: #FEFEDC;
+    height: 5vh;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 5px;
+    
+}
+
+
+h3{
+    background-color: #FEDCFE;
+    height: 15vh;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.Sidebar{
+    background-color: #DCDCFE;
+    width: calc(100%/3);
+    height: 50vh;
+    float: left;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.MainContent{
+    background-color:#DCFEFE;
+    width: calc(100%*2/3);
+    height: 50vh;
+    float: right;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.aside1{
+    background-color:  #FEDCDC;
+    width: calc(100%/3);
+    height: 25vh;
+    float: left;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.aside2{
+    background-color: #DCFEDC;
+    width: calc(100%/3);
+    height: 25vh;
+    float: left;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.aside3{
+    background-color: #DCDCFE;
+    width: calc(100%/3);
+    height: 25vh;
+    float: right;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+footer{
+    width: 100%;
+    background-color: #DCDCDC;
+    height: 5vh;
+    position: relative;
+    
+      
+    
+}
+.footer{
+    position: absolute;
+    bottom: 0px;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+
+}

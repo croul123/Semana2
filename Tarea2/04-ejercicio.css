@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    height: 100vh;
+    background-color: #E8E7E7;
+    position: relative;
+}
+
+.contenedor{
+
+    background-color: white;
+    width: 450px;
+    height: 500px;
+    border-radius: 10px;
+    position: absolute;
+    left: calc(50% - 225px );
+    top: calc(50% - 250px );
+}
+
+
+#imagen{
+    width: 80px;
+    height: 80px;
+    background-image: url(./imagen1.png);
+    background-position: center;
+    position: relative ;
+    top: 70px;
+    left: calc(50% +250 );
+}
+    
